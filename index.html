@@ -7,76 +7,115 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
+    <div class="header">
         <h1>كلية التربية</h1>
-        <nav>
-            <ul>
-                <li><a href="#message">الرسالة والأهداف</a></li>
-                <li><a href="#faculty">الهيئة التدريسية</a></li>
-                <li><a href="#graduates">الخريجون</a></li>
-                <li><a href="#projects">مشاريع التخرج</a></li>
-            </ul>
-        </nav>
-    </header>
+        <p>نحو مستقبل تعليمي أفضل</p>
+    </div>
 
-    <!-- قسم الرسالة والأهداف -->
-    <section id="message">
-        <h2>الرسالة والأهداف</h2>
-        <p>نهدف إلى إعداد كوادر تعليمية متميزة قادرة على الإبداع والابتكار في مجال التعليم والتدريس، والاهتمام بتنمية مهارات الطلاب وتعزيز البحث العلمي.</p>
-    </section>
+   
+    <div class="content" id="mission">
+        <h2>رسالة الكلية</h2>
+        <p>
+            تهدف كلية التربية إلى تقديم تعليم عالي الجودة، يركز على إعداد المعلمين والمربين الذين يستطيعون قيادة عملية التغيير في المجتمع من خلال منهجية تربوية مبتكرة. 
+            إن رسالتنا هي تحسين العملية التعليمية، وتعزيز القدرات الأكاديمية والتربوية، والمساهمة في التنمية الشاملة للمجتمع من خلال التعليم.
+        </p>
+    </div>
 
-    <!-- قسم الهيئة التدريسية -->
-    <section id="faculty">
-        <h2>الهيئة التدريسية</h2>
-        <p>تضم كلية التربية نخبة من الأكاديميين المتخصصين في مجالات التربية والتعليم، والذين يسهمون في بناء وتعليم الأجيال القادمة.</p>
-    </section>
+<div class="content goals" id="goals">
+    <h2>أهداف الكلية</h2>
+    <ul>
+        <li>تطوير مهارات الطلاب الأكاديمية والعملية في مجال التربية.</li>
+        <li>تحفيز البحث العلمي في مجالات التربية الحديثة.</li>
+        <li>إعداد معلمين قادرين على مواجهة تحديات التعليم في العصر الرقمي.</li>
+        <li>تعزيز القيم الأخلاقية والمهنية لدى المعلمين والطلاب.</li>
+        <li>تقديم استشارات تربوية وخدمات للمجتمع المحلي.</li>
+    </ul>
+</div>
 
-    <!-- قسم الخريجين -->
-    <section id="graduates">
-        <h2>الخريجون</h2>
-        <div class="graduates-list">
-            <div class="graduate-card">
-                <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGdyYWR1YXRlJTIwcGVyc29ufGVufDB8fHx8MTY4NTUxMDc2Nw&ixlib=rb-4.0.3&q=80&w=400" alt="صورة الخريج الأول">
-                <h3>أحمد محمد</h3>
-                <p>مشروع التخرج: <span>تطبيق لإدارة المدارس</span></p>
-            </div>
-            <div class="graduate-card">
-                <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fGdyYWR1YXRlJTIwcGVyc29ufGVufDB8fHx8MTY4NTUxMDgyOQ&ixlib=rb-4.0.3&q=80&w=400" alt="صورة الخريج الثاني">
-                <h3>منى علي</h3>
-                <p>مشروع التخرج: <span>نظام تعليم إلكتروني تفاعلي</span></p>
-            </div>
-            <div class="graduate-card">
-                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fGdyYWR1YXRlJTIwcGVyc29ufGVufDB8fHx8MTY4NTUxMDk4MA&ixlib=rb-4.0.3&q=80&w=400" alt="صورة الخريج الثالث">
-                <h3>خالد حسن</h3>
-                <p>مشروع التخرج: <span>تصميم منصة لتعليم البرمجة</span></p>
-            </div>
-            <!-- أضف المزيد من الخريجين حسب الحاجة -->
-        </div>
-    </section>
+<div class="contact-section" id="contact">
+    <h2>تواصل معنا</h2>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="الاسم الكامل" required>
+        <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+        <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+        <input type="submit" value="إرسال">
+    </form>
+</div>
 
-    <!-- قسم مشاريع التخرج -->
-    <section id="projects">
-        <h2>مشاريع التخرج</h2>
-        <div class="projects-list">
-            <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG5ldHdvcmt8ZW58MHx8fHwxNjg1NjE3MjQ5&ixlib=rb-4.0.3&q=80&w=400" alt="صورة مشروع التخرج الأول">
-                <h3>تطبيق لإدارة المدارس</h3>
-                <p>تم تصميم هذا التطبيق ليسهل إدارة المدارس عبر الإنترنت، مع ميزات تتضمن تتبع الحضور، تقديم الواجبات، وجدولة الدروس.</p>
-            </div>
-            <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGVkdWNhdGlvbnxlbnwwfHx8fDE2ODU2MTcyNzQ&ixlib=rb-4.0.3&q=80&w=400" alt="صورة مشروع التخرج الثاني">
-                <h3>نظام تعليم إلكتروني تفاعلي</h3>
-                <p>هذا المشروع يوفر منصة تعليمية متكاملة تمكن المعلمين من تقديم دروس تفاعلية وتقييمات فورية للطلاب.</p>
-            </div>
-            <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGVkdWNhdGlvbnxlbnwwfHx8fDE2ODU2MTcyNzQ&ixlib=rb-4.0.3&q=80&w=400" alt="صورة مشروع التخرج الثاني">
-                <h3>منصة لتعليم البرمجة</h3>
-                <p>مشروع يهدف إلى تعليم البرمجة للمبتدئين من خلال دروس مصممة بعناية وأنشطة تفاعلية تساعد الطلاب على التعلم بطريقة مبدعة.</p>
-            </div>
-            <!-- أضف المزيد من المشاريع حسب الحاجة -->
-        </div>
-    </section>
+<div class="footer">
+    <p>© 2024 كلية التربية. جميع الحقوق محفوظة.</p>
+</div>
+<!-- /* abdalrahman الرسالة والاهداف */ -->
+
+
+
+<nav>
+    <ul>
+        <li><a href="#message">الرسالة والأهداف</a></li>
+        <li><a href="#faculty">الهيئة التدريسية</a></li>
+        <li><a href="#graduates">الخريجون</a></li>
+        <li><a href="#projects">مشاريع التخرج</a></li>
+    </ul>
+</nav>
+</header>
+
+<!-- قسم الرسالة والأهداف -->
+<section id="message">
+<h2>الرسالة والأهداف</h2>
+<p>نهدف إلى إعداد كوادر تعليمية متميزة قادرة على الإبداع والابتكار في مجال التعليم والتدريس، والاهتمام بتنمية مهارات الطلاب وتعزيز البحث العلمي.</p>
+</section>
+
+<!-- قسم الهيئة التدريسية -->
+<section id="faculty">
+<h2>الهيئة التدريسية</h2>
+<p>تضم كلية التربية نخبة من الأكاديميين المتخصصين في مجالات التربية والتعليم، والذين يسهمون في بناء وتعليم الأجيال القادمة.</p>
+</section>
+
+<!-- قسم الخريجين -->
+<section id="graduates">
+<h2>الخريجون</h2>
+<div class="graduates-list">
+    <div class="graduate-card">
+        <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGdyYWR1YXRlJTIwcGVyc29ufGVufDB8fHx8MTY4NTUxMDc2Nw&ixlib=rb-4.0.3&q=80&w=400" alt="صورة الخريج الأول">
+        <h3>أحمد محمد</h3>
+        <p>مشروع التخرج: <span>تطبيق لإدارة المدارس</span></p>
+    </div>
+    <div class="graduate-card">
+        <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDl8fGdyYWR1YXRlJTIwcGVyc29ufGVufDB8fHx8MTY4NTUxMDgyOQ&ixlib=rb-4.0.3&q=80&w=400" alt="صورة الخريج الثاني">
+        <h3>منى علي</h3>
+        <p>مشروع التخرج: <span>نظام تعليم إلكتروني تفاعلي</span></p>
+    </div>
+    <div class="graduate-card">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fGdyYWR1YXRlJTIwcGVyc29ufGVufDB8fHx8MTY4NTUxMDk4MA&ixlib=rb-4.0.3&q=80&w=400" alt="صورة الخريج الثالث">
+        <h3>خالد حسن</h3>
+        <p>مشروع التخرج: <span>تصميم منصة لتعليم البرمجة</span></p>
+    </div>
+    <!-- أضف المزيد من الخريجين حسب الحاجة -->
+</div>
+</section>
+
+<!-- قسم مشاريع التخرج -->
+<section id="projects">
+<h2>مشاريع التخرج</h2>
+<div class="projects-list">
+    <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG5ldHdvcmt8ZW58MHx8fHwxNjg1NjE3MjQ5&ixlib=rb-4.0.3&q=80&w=400" alt="صورة مشروع التخرج الأول">
+        <h3>تطبيق لإدارة المدارس</h3>
+        <p>تم تصميم هذا التطبيق ليسهل إدارة المدارس عبر الإنترنت، مع ميزات تتضمن تتبع الحضور، تقديم الواجبات، وجدولة الدروس.</p>
+    </div>
+    <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGVkdWNhdGlvbnxlbnwwfHx8fDE2ODU2MTcyNzQ&ixlib=rb-4.0.3&q=80&w=400" alt="صورة مشروع التخرج الثاني">
+        <h3>نظام تعليم إلكتروني تفاعلي</h3>
+        <p>هذا المشروع يوفر منصة تعليمية متكاملة تمكن المعلمين من تقديم دروس تفاعلية وتقييمات فورية للطلاب.</p>
+    </div>
+    <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fGVkdWNhdGlvbnxlbnwwfHx8fDE2ODU2MTcyNzQ&ixlib=rb-4.0.3&q=80&w=400" alt="صورة مشروع التخرج الثاني">
+        <h3>منصة لتعليم البرمجة</h3>
+        <p>مشروع يهدف إلى تعليم البرمجة للمبتدئين من خلال دروس مصممة بعناية وأنشطة تفاعلية تساعد الطلاب على التعلم بطريقة مبدعة.</p>
+    </div>
+    <!-- أضف المزيد من المشاريع حسب الحاجة -->
+</div>
+</section>
 <!-- هاني شحود -->
 </body>
 </html>
